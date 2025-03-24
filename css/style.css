@@ -18,6 +18,8 @@ a{
 
 img{
   display: block;
+  max-width: 100%;
+   height: auto;
 }
 .container{
 width: 1158px;
@@ -156,8 +158,6 @@ min-height: 56px;
 max-height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
-
-
 justify-content: center;
 }
 
@@ -273,6 +273,13 @@ padding-bottom: 32px;
 
 
 /* SECTION FOUR */
+.section-four{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  /* background-color: #404bbf; */
+  
+}
+
 .section-four .htwomain-head {
   font-size: 36px;
   line-height: 1.11;
@@ -280,6 +287,44 @@ padding-bottom: 32px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-bottom: 72px;
+
+}
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: calc(100% -72px)/3;
+}
+
+.portfolio-item{
+  background-color: #fff;
+  width: calc(100% - 48px)/3;
+}
+
+.one .two .three{
+  padding-bottom: 48px;
+}
+
+.portfolio-item .hthreetop-head{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+.portfolio-item .paragraph{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+padding-left: 16px;
+padding-bottom: 32px;
 }
 
 .paragraph {
@@ -292,14 +337,23 @@ padding-bottom: 32px;
 
 
 /* PHOOTER */
+.footer-logo{
+margin-right: auto;
+}
 .phooter-class {
   background-color: #2e2f42;
+  padding-top: 102px;
 }
 .phooter-class .phooter-paragraph {
   color: #f4f4fd;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  padding-bottom: 100px;
+  max-width: 264px;
+  min-width: 264px;
+  min-height: 72px;
+  padding-top: 16px;
 }
 
 .logo-studio-white{
