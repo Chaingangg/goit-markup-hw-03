@@ -118,9 +118,6 @@ align-items: center;
   text-decoration: none;
 }
 
-.portfolio-decription .hthreetop-head{
-  margin-bottom: 8px
-}
 
 .logo-studio {
   color: #2e2f42;
@@ -246,7 +243,7 @@ color: #2e2f42;
 margin-bottom: 72px;
 }
 
-.photo-emp .hthreetop-head{
+.photo-emp-item .hthreetop-head{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -256,7 +253,7 @@ color: #2e2f42;
 margin-bottom: 8px;
 }
 
-.photo-emp .paragraph{
+.photo-emp-item .paragraph{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -282,10 +279,10 @@ color: #434455;
   color: #2e2f42;
 }
 
-.photo-emp {
+.photo-emp-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
+  /* padding: 0px 0px 32px 0px; */
 }
 
 .team-list{
@@ -296,7 +293,9 @@ color: #434455;
 
 .names-and-proffesion{
   padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 
 
 /* SECTION FOUR */
@@ -346,7 +345,16 @@ color: #434455;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+
 .portfolio-decription .hthreetop-head{
+  margin-bottom: 8px;
+}
+.portfolio-decription{
+  padding: 32px 16px;
+}
+
+/* .portfolio-decription .hthreetop-head{
   margin-left: 16px;
   margin-top: 32px;
 
@@ -354,8 +362,7 @@ color: #434455;
 .portfolio-decription .paragraph{
   padding-left: 16px;
   padding-bottom: 32px;
-}
-
+} */
 
 /* PHOOTER */
 .footer-logo{
