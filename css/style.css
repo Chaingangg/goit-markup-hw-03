@@ -88,9 +88,6 @@ align-items: center;
   padding: 24px 0;
   
 }
-.address-item .address-qwe:hover {
-  text-decoration: underline;
-}
 
 .nav-item {
   display: block;
@@ -148,6 +145,7 @@ align-items: center;
   max-width: 496px;
   margin: 0 auto;
 margin-bottom: 48px;
+text-align: center;
 }
 
 .order-button {
@@ -211,6 +209,18 @@ width: calc((100% - 72px) / 4);
 }
 .advantages-item .hthreetop-head{
   margin-bottom: 8px;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.advantages-item .paragraph{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 .portfolio {
@@ -227,7 +237,6 @@ width: calc((100% - 72px) / 4);
 
 .team-title{
 min-width: 162px;  
-max-height: 40px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -244,7 +253,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-margin-bottom: 8px
+margin-bottom: 8px;
+margin-top: 32px;
 }
 
 .photo-emp .paragraph{
@@ -272,21 +282,22 @@ color: #434455;
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .photo-emp {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
 }
+
 .team-list{
   display: flex;
   gap: 24px;
   justify-content: space-between;
 }
+
 .names-and-proffesion{
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 
@@ -294,7 +305,6 @@ color: #434455;
 .section-four{
   padding-top: 120px;
   padding-bottom: 120px;
-  /* background-color: #404bbf;*/
 }
 
 .section-four .htwomain-head {
@@ -304,7 +314,7 @@ color: #434455;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-list{
   display: flex;
@@ -319,11 +329,11 @@ margin-bottom: 72px;
 }
 
 .portfolio-item .hthreetop-head{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-item .paragraph{
@@ -332,15 +342,20 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-padding-left: 16px;
-padding-bottom: 32px;
 }
 
 .portfolio-decription{
-  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+}
+.portfolio-decription .hthreetop-head{
+  margin-left: 16px;
+  margin-top: 32px;
+
+}
+.portfolio-decription .paragraph{
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
 
 
