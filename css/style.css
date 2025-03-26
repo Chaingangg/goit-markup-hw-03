@@ -296,8 +296,8 @@ color: #434455;
 }
 
 .names-and-proffesion{
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 
@@ -354,8 +354,8 @@ color: #434455;
 
 }
 .portfolio-decription .paragraph{
-  margin-left: 16px;
-  margin-bottom: 32px;
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 
 
